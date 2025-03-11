@@ -1,0 +1,18 @@
+# Core dependencies
+python-dotenv
+langchain
+streamlit
+pandas
+numpy
+faiss-cpu
+groq
+sentence-transformers
+
+# Data processing
+openpyxl
+python-pptx
+pypdf2
+
+# Utilities
+tqdm
+plotly
