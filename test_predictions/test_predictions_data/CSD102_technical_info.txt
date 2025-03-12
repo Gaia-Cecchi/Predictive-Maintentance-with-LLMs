@@ -1,0 +1,114 @@
+Informazioni fondamentali per l'identificazione delle anomalie nel compressore CSD 102:
+**Dati dalla Nameplate:**
+
+*   **Modello:** CSD 102-8
+*   **Materiale (Codice):** 9.5700.06E-2024
+*   **Numero di Serie:** 123456789
+*   **Anno di Fabbricazione:** 2024
+*   **Potenza Nominale:** **55 kW**
+*   **Velocità del Motore:** **2950 rpm**
+*   **Massima Pressione di Esercizio:** **8 bar**
+*   **Temperatura Ambiente:** **0-45 °C**
+*   **Refrigerante:** SIGMA FLUID PLUS
+*   **Alimentazione:** 400V / 50Hz / 3ph
+
+**Parametri Operativi e Anomalie:**
+*   **Temperatura di Scarico dell'Aria Compressata:**
+    *   **Valore Tipico:** **70-95 °C**
+    *   **Valore Anomalo:**
+        *   **Superiore a 115 °C:** Spegnimento di emergenza. Controllare funzionamento ventola, intasamento radiatore, livello olio, allarmi attivi.
+        *   **Inferiore a 50 °C:** Problema termostato olio o sensore difettoso. Verificare temperatura ambiente (min. 0 °C).
+*   **Pressione:**
+    *   **Massima Pressione di Esercizio:** **8 bar**. Non superare mai.
+    *   **Pressione di Esercizio Normale:** Esempio **6-7.5 bar**. Varia a seconda dell'applicazione.
+    *   **Valore Anomalo:**
+        *   **Pressione insufficiente:** Inferiore al valore minimo impostato, ad esempio **< 5.5 bar**. Possibili cause: perdite nell'impianto, filtro aria sporco, valvola aspirazione difettosa, richiesta d'aria eccessiva.
+        *   **Attivazione frequente valvola di sicurezza:** Sovrapressione, ad esempio **> 8 bar**. Possibili cause: malfunzionamenti sistema di controllo, intasamento separatore olio, errata impostazione pressione.
+*   **Livello dell'Olio:**
+    *   **Controllo:** A compressore in funzione da almeno 5 minuti sotto carico.
+    *   **Valore Normale:** Tra "MIN" e "MAX" sull'indicatore. Esempio con scala 0-10: MIN: **3**, MAX: **8**.
+    *   **Valore Anomalo:**
+        *   **Sotto il livello "MIN":** **< 3**. Rabboccare con SIGMA FLUID PLUS.
+        *   **Sopra il livello "MAX":** **> 8**. Drenare l'eccesso. Può causare trascinamento olio.
+    *   **Consumo Eccessivo di Olio:** Verificare cartuccia separatore, perdite esterne, sistema recupero olio.
+*   **Qualità dell'Aria Compressata:**
+    *   **Allarme "oil content":** Superamento limite olio. Sostituire separatore, controllare tubo recupero, verificare qualità olio.
+*   **Motore:**
+    *   **Sovraccarico Motore:** Arresto con codice errore. Verificare corrente, tensioni, surriscaldamento, filtro aria, airend.
+    *   **Surriscaldamento Motore:** Controllare ventilazione, pulire alette, verificare ventola.
+    *   **Eccessivi Avviamenti Motore:** Se **> 4-6/ora**, aumentare capacità serbatoio, ridurre fluttuazioni pressione, ottimizzare controllo.
+*   **Rumore:**
+    *   **Valori di riferimento:** Circa **72 dB(A)** a 1 metro.
+    *   **Rumore Anomalo:** Localizzare la fonte (cuscinetti, airend, valvole). Variazioni superiori a ±**3-5 dB(A)** potrebbero indicare anomalie.
+*   **Allarmi e Avvisi:**
+    *   **Allarme (LED Rosso):** Intervento immediato. Consultare il manuale.
+    *   **Avviso (LED Giallo):** Richiede attenzione. Può prevenire guasti.
+    *   **Esempi Comuni:**
+        *   "Air Filter DP High": Sostituire filtro aria.
+        *   "Oil Temp High": Verificare raffreddamento.
+        *   "Motor Overload": Sovraccarico motore.
+
+**Condizioni Ambientali:**
+
+*   **Temperatura Ambiente:** **0-45 °C**. Influisce su efficienza e durata.
+    *   Temperature ambientali **superiori a 40°C** possono causare surriscaldamento.
+    *   Temperature **inferiori a 3°C** possono compromettere il funzionamento. Mantenere la temperatura della sala compressori al di sopra dei **5°C**.
+*   **Umidità:** Evitare ambienti umidi.
+    *   L'umidità elevata aumenta il rischio di corrosione dei componenti interni. Gli essiccatori d'aria compressa devono essere dimensionati per gestire le condizioni operative peggiori, inclusa l'umidità massima.
+*   **Ventilazione:** Essenziale per il raffreddamento. Assicurarsi che ci sia un'adeguata circolazione di aria fresca e pulita nella sala compressori.
+    *   Inlet opening \[m²] (option K1): CSD 82: 1.2, CSD 102: 1.4, CSD 122: 1.7.
+    *   Extractor for forced ventilating: Flow rate \[m³/h] at 100 Pa (option K1): CSD 82: 16500, CSD 102: 20000, CSD 122: 24000.
+*   **Qualità dell'aria:** Evitare di aspirare aria con forti concentrazioni di polvere, fuliggine o altri contaminanti.
+
+**Dati elettrici**:
+
+*   Corrente (A): Misura dell'elettricità assorbita.
+*   Fattore di Potenza (PF): Efficienza nell'uso dell'energia elettrica (0-1, ideale vicino a 1).
+*   Consumo Energia (kW): Potenza reale utilizzata.
+*   Energia Reattiva (kVAR): Energia "inutilizzata".
+
+**Manutenzione:**
+
+*   Seguire il piano di manutenzione programmata.
+*   Utilizzare ricambi originali KAESER.
+*   Registrare tutti gli interventi.
+*   Analisi olio periodica.
+*   Verificare tensione e frequenza alimentazione elettrica. Controllare cavi e collegamenti. Verificare taratura interruttori e relè.
+
+**Influenza delle Variabili Ambientali e Azioni Correttive:**
+
+*   **Alta Temperatura Ambiente (>35°C):**
+    *   Aumento della corrente e del consumo energetico.
+    *   Possibile diminuzione del fattore di potenza.
+    *   **Soluzioni:**
+        *   Migliorare la ventilazione della sala compressori.
+        *   Regolare il flusso e la temperatura dell'acqua nei compressori raffreddati ad acqua.
+        *   Pulire regolarmente radiatori e filtri.
+*   **Bassa Temperatura Ambiente (<0°C):**
+    *   Aumento della corrente all'avvio.
+    *   Fattore di potenza inizialmente basso.
+    *   Rischio di congelamento della condensa.
+    *   **Soluzioni:**
+        *   Mantenere la temperatura della sala compressori sopra i 5°C.
+        *   Utilizzare olio compressore adatto per basse temperature.
+        *   Isolare le tubazioni esterne.
+        *   Verificare il funzionamento degli scaricatori di condensa.
+*   **Alta Umidità (prossima al 100%):**
+    *   Corrente leggermente più alta.
+    *   Maggiore condensa.
+    *   Rischio di corrosione.
+    *   **Soluzioni:**
+        *   Verificare il funzionamento dell'essiccatore d'aria.
+        *   Aumentare la frequenza di scarico della condensa.
+        *   Utilizzare filtri per rimuovere olio e acqua.
+        *   Controllare la corrosione e applicare rivestimenti protettivi.
+*   **Temporali:**
+    *   Sbalzi di corrente.
+    *   Arresto improvviso.
+    *   Danni ai componenti.
+    *   **Soluzioni:**
+        *   Installare scaricatori di sovratensione (SPD).
+        *   Utilizzare un gruppo di continuità (UPS) per compressori critici.
+        *   Ispezionare attentamente dopo i temporali.
+
+Monitorare regolarmente i parametri elettrici e confrontarli con le condizioni meteorologiche per una diagnosi tempestiva dei problemi.
