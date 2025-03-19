@@ -1,0 +1,129 @@
+datetime,actual_type,actual_classification,predicted_classification,predicted_type,confidence,key_indicators,recommendation,is_correct,temperature,vibration,pressure,current
+2024-03-08T14:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"Vibration: 6.6 mm/s, Temperature: 110.5°C",Esaminare il compressore per potenziali guasti ai cuscinetti.,True,110.5,6.58,7.02,115.45
+2024-03-23T09:00:00,anomaly,ANOMALY,ANOMALY,surriscaldamento,alta,"2024-03-23 09:00, Temperature: 120.0°C, Vibration: 1.9 mm/s",Verificare immediatamente il sistema di raffreddamento.,True,120.0,1.94,6.49,122.02
+2024-04-05T11:00:00,anomaly,ANOMALY,ANOMALY,calo di pressione,alta,"2024-04-05 11:00,94.0,2.3,4.5,103.0,2969.0,397.7,0.9; 2024-04-05 14:00,99.1,1.8,7.2,124.3,2949.0,394.4,0.9",Monitor system based on classification.,True,94.0,2.29,4.54,102.99
+2024-04-14T16:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"Vibration: 5.4 mm/s, Temperature: 76.9 °C",Esaminare il compressore per potenziali guasti ai cuscinetti.,True,76.9,5.4,6.77,122.99
+2024-04-20T10:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"2024-04-20 10:00,87.1,2.1,6.7,74.4,2800.0,420.0,0.8",Esaminare il compressore per potenziali guasti ai cuscinetti.,True,87.1,2.1,6.69,74.38
+2024-04-29T13:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"Vibration: 6.2 mm/s, Temperature: 107.3 °C",Esaminare immediatamente il cuscinetto del compressore.,True,107.3,6.17,7.56,117.41
+2024-05-07T15:00:00,anomaly,ANOMALY,ANOMALY,surriscaldamento,alta,"Temperature: 120.0°C, Vibration: 1.9 mm/s",Verificare immediatamente il sistema di raffreddamento.,True,120.0,1.86,7.19,150.0
+2024-05-16T09:00:00,anomaly,ANOMALY,ANOMALY,calo di pressione,alta,"2024-05-16 09:00,94.4,2.0,4.6,110.7,2940.0,400.0,0.9; 2024-05-16 11:00,95.6,1.7,7.5,111.4,2981.0,402.7,0.9",Monitor system based on classification.,True,94.4,1.97,4.59,110.74
+2024-05-22T17:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"Vibration: 6.2 mm/s, Temperature: 89.4 °C",Esaminare immediatamente il cuscinetto del compressore.,True,89.4,6.21,6.95,50.0
+2024-05-26T14:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"2024-05-26 14:00,84.6,1.6,6.5,50.0,2800.0,380.0,1.0",Esaminare il compressore per problemi interni non rilevabili dai sensori.,True,84.6,1.61,6.48,50.0
+2024-05-30T11:00:00,anomaly,ANOMALY,ANOMALY,guasto cuscinetti,alta,"2024-05-30 11:00, Temperature: 115.2°C, Vibration: 7.2 mm/s",Esaminare il compressore per potenziali guasti ai cuscinetti.,True,115.2,7.18,7.79,50.0
+2024-03-05T10:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 105.0°C, Vibration: 1.7 mm/s, Pressure: 7.1 bar",Continua il monitoraggio standard.,True,105.0,1.67,7.07,132.59
+2024-03-12T13:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-12 13:00, Temp: 109.0°C, Vib: 1.9 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,109.0,1.9,7.2,102.58
+2024-03-18T16:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-18 16:00,103.2,2.5,7.5,112.4,2950.0,397.5,0.9; 2024-03-18 14:00,102.4,1.7,7.0,111.8,2964.0,400.7,0.9",Contin,True,103.2,2.5,7.47,112.35
+2024-03-25T09:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-25 09:00,97.7,1.5,6.8,110.4,2940.0,401.2,0.9; 2024-03-25 08:00,90.6,2.3,7.2,106.9,2923.0,405.2,0.9",Continua il,True,97.7,1.47,6.81,110.38
+2024-03-30T14:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-30 14:00, Temp: 91.6°C, Vib: 2.0 mm/s, Press: 6.7 bar",Continua il monitoraggio standard.,True,91.6,1.99,6.7,110.09
+2024-04-02T11:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 88.4 °C, Vibration: 2.0 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,88.4,2.0,7.46,113.81
+2024-04-09T15:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-09 15:00, Temp: 91.9°C, Vib: 1.6 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,91.9,1.58,7.23,110.37
+2024-04-16T10:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-16 10:00,89.8,2.0,7.3,112.3,2800.0,393.0,0.8",Continua il monitoraggio standard.,True,89.8,2.04,7.27,112.34
+2024-04-22T13:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 109.0°C, Vibration: 1.9 mm/s, Pressure: 7.3 bar",Continua il monitoraggio standard.,True,109.0,1.89,7.31,108.8
+2024-04-25T16:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 86.7°C, Vibration: 2.0 mm/s, Pressure: 7.3 bar",Continua il monitoraggio standard.,True,86.7,1.95,7.26,127.4
+2024-04-30T09:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 109.0°C, Vibration: 2.1 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,109.0,2.12,7.53,108.3
+2024-05-03T12:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-03 12:00, Temp: 98.1°C, Vib: 1.7 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,98.1,1.69,7.21,128.57
+2024-05-10T14:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 91.2 °C, Vibration: 1.8 mm/s, Pressure: 7.0 bar",Continua il monitoraggio standard.,True,91.2,1.85,7.05,112.11
+2024-05-15T11:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 109.0 °C, Vibration: 2.3 mm/s, Pressure: 7.2 bar",Continua il monitoraggio standard.,True,109.0,2.33,7.24,109.45
+2024-05-20T16:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-20 16:00,91.7°C,2.1 mm/s,7.1 bar",Continua il monitoraggio standard.,True,91.7,2.13,7.13,129.2
+2024-05-25T10:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 74.8°C, Vibration: 1.9 mm/s, Pressure: 6.8 bar",Continua il monitoraggio standard.,True,74.8,1.87,6.75,50.0
+2024-05-31T08:00:00,false_positive,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-31 08:00, Temp: 95.0°C, Vib: 2.1 mm/s, Press: 7.4 bar",Continua il monitoraggio standard.,True,95.0,2.07,7.45,50.0
+2024-04-10T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-10 12:00, Temp: 96.4°C, Vib: 1.7 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,96.4,1.74,6.96,113.82
+2024-04-04T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-04 15:00, Temp: 96.3°C, Vib: 1.8 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,96.3,1.83,7.1,98.78
+2024-04-10T14:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-10 14:00, Temp: 98.9°C, Vib: 1.9 mm/s, Press: 7.3 bar",Continua il monitoraggio standard.,True,98.9,1.88,7.29,106.71
+2024-05-29T12:00:00,normal,NORMAL VALUE,ANOMALY,guasto cuscinetti,alta,"2024-05-29 12:00, Temp: 103.7°C, Vib: 2.2 mm/s",Esaminare il compressore per potenziali guasti ai cuscinetti.,False,103.7,2.17,6.68,50.0
+2024-04-02T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-02 16:00,96.6°C,1.6 mm/s",Continua il monitoraggio standard.,True,96.6,1.63,7.61,108.33
+2024-04-02T13:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 100.7 °C, Vibration: 1.6 mm/s, Pressure: 7.4 bar",Continua il monitoraggio standard.,True,100.7,1.57,7.44,95.81
+2024-05-01T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-01 09:00, Temp: 99.5°C, Vib: 2.1 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,99.5,2.1,7.2,111.48
+2024-03-13T13:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 95.7°C, Vibration: 1.7 mm/s, Pressure: 7.4 bar",Continua il monitoraggio standard.,True,95.7,1.72,7.39,102.95
+2024-05-22T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-22 08:00, Temp: 95.0°C, Vib: 1.6 mm/s, Press: 7.6 bar",Continua il monitoraggio standard.,True,95.0,1.58,7.58,50.0
+2024-04-24T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-24 09:00,98.4,2.1,7.5,99.8,2934.0,394.5,0.8",Continua il monitoraggio standard.,True,98.4,2.09,7.48,99.83
+2024-05-24T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-24 09:00, Temp: 100.3°C, Vib: 2.3 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,100.3,2.33,7.03,50.0
+2024-03-25T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-25 12:00, Temp: 96.1°C, Vib: 2.4 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,96.1,2.36,7.2,113.73
+2024-05-14T11:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 101.5°C, Vibration: 1.6 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,101.5,1.63,7.52,101.18
+2024-05-21T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-21 09:00, Temp: 99.3°C, Vib: 1.5 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,99.3,1.46,7.05,50.0
+2024-03-05T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-05 09:00, Temp: 96.2°C, Vib: 2.0 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,96.2,1.99,7.04,115.17
+2024-05-21T13:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 98.4°C, Vibration: 1.8 mm/s, Pressure: 7.0 bar",Continua il monitoraggio standard.,True,98.4,1.85,7.01,50.0
+2024-03-04T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 96.9°C, Vibration: 1.9 mm/s, Pressure: 7.4 bar",Continua il monitoraggio standard.,True,96.9,1.89,7.44,108.48
+2024-04-05T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-05 17:00,101.2°C,1.9 mm/s,7.2 bar",Continua il monitoraggio standard.,True,101.2,1.93,7.23,102.66
+2024-03-14T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-14 16:00,98.7,1.6,7.3,108.9,2941.0,398.4,0.9",Continua il monitoraggio standard.,True,98.7,1.56,7.34,108.89
+2024-04-12T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-12 15:00, Temp: 98.3°C, Vib: 1.9 mm/s",Continua il monitoraggio standard.,True,98.3,1.93,7.39,126.7
+2024-03-06T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-06 15:00, Temp: 96.2°C, Vib: 1.9 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,96.2,1.91,7.15,121.3
+2024-03-06T10:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature 99.5°C, Vibration 2.0 mm/s, Pressure 7.2 bar",Continua il monitoraggio standard.,True,99.5,1.99,7.16,96.28
+2024-05-31T18:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-31 18:00, Temp: 99.0°C, Vib: 1.7 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,99.0,1.73,7.09,50.0
+2024-04-30T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-30 15:00, Temp: 98.2°C, Vib: 1.8 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,98.2,1.8,7.03,91.1
+2024-04-11T14:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-11 14:00, Temp: 102.3°C, Vib: 2.2 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,102.3,2.24,7.16,105.53
+2024-05-26T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-26 12:00, Temp: 82.6°C, Vib: 2.4 mm/s, Press: 6.6 bar",Continua il monitoraggio standard.,True,82.6,2.35,6.63,50.0
+2024-04-16T03:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-16 03:00, Temp: 87.0°C, Vib: 2.1 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,87.0,2.06,6.94,70.51
+2024-04-29T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-29 00:00, Temp: 87.5°C, Vib: 2.1 mm/s; 2024-04-29 02:00, Temp: 81.2°C, Vib: 1.5 mm/s",Continua il monitoraggio standard.,True,87.5,2.1,6.64,82.7
+2024-03-26T06:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-26 06:00,82.9,2.1,7.4,85.9,2946.0,402.5,0.9; 2024-03-26 05:00,77.0,2.0,7.5,92.7,2950.0,399.7,0.9",Continua il monitoraggio,True,82.9,2.09,7.38,85.92
+2024-05-09T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 99.0 °C, Vibration: 2.6 mm/s, Pressure: 6.8 bar",Continua il monitoraggio standard.,True,99.0,2.65,6.77,113.82
+2024-03-02T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-02 00:00, Temp: 78.5°C, Vib: 2.1 mm/s; 2024-03-02 02:00, Temp: 71.0°C, Vib: 1.7 mm/s",Continua il monitoraggio standard.,True,78.5,2.06,6.48,58.86
+2024-05-16T04:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-16 04:00,71.8,2.1,7.2,76.8,2951.0,404.2,0.9; 2024-05-16 05:00,87.4,1.7,7.1,82.4,2953.0,400.7,0.9",Continua il monitoraggio,True,71.8,2.06,7.22,76.81
+2024-04-04T14:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-04 14:00, Temp: 90.5°C, Vib: 2.2 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,90.5,2.22,7.05,98.23
+2024-03-13T19:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-13 19:00,81.8,2.1,7.0,87.4,2931.0,402.4,0.9; 2024-03-13 20:00,74.4,2.1,7.4,93.2,2959.0,400.0,0.9",Continua il monitoraggio,True,81.8,2.1,6.98,87.35
+2024-05-08T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 96.6 °C, Vibration: 2.2 mm/s, Pressure: 7.4 bar",Continua il monitoraggio standard.,True,96.6,2.19,7.43,113.85
+2024-05-08T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-08 08:00, Temp: 99.7°C, Vib: 2.0 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,99.7,2.04,7.2,108.66
+2024-03-04T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature 91.4°C, Vibration 2.0 mm/s",Continua il monitoraggio standard.,True,91.4,2.0,7.14,108.16
+2024-03-04T06:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-04 06:00,76.8,2.0,7.1,94.5,2931.0,397.4,0.9; 2024-03-04 05:00,93.1,1.8,6.9,81.8,2961.0,402.1,0.9",Continua il monitoraggio,True,76.8,2.03,7.12,94.5
+2024-04-10T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-10 16:00,85.1°C,2.0 mm/s,7.1 bar",Continua il monitoraggio standard.,True,85.1,2.01,7.09,99.42
+2024-04-11T03:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-11 03:00, Temp: 81.6°C, Vib: 2.4 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,81.6,2.39,7.19,83.24
+2024-04-06T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-06 12:00, Temp: 93.1°C, Vib: 2.0 mm/s, Press: 6.4 bar",Continua il monitoraggio standard.,True,93.1,2.03,6.38,76.16
+2024-03-13T20:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-13 20:00,74.4,2.1,7.4,93.2,2959.0,400.0,0.9; 2024-03-13 23:00,83.7,1.9,6.9,91.0,2953.0,398.8,0.9",Continua il monitoraggio,True,74.4,2.1,7.36,93.22
+2024-03-20T22:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-20 22:00, Temp: 85.2°C, Vib: 2.0 mm/s; 2024-03-20 23:00, Temp: 83.5°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,85.2,2.01,7.2,107.53
+2024-04-26T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 98.3°C, Vibration: 2.1 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,98.3,2.06,7.51,103.57
+2024-03-01T23:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-01 23:00,79.9,2.0,6.7; 2024-03-02 02:00,71.0,1.7,6.3",Continua il monitoraggio standard.,True,79.9,2.0,6.72,73.17
+2024-05-31T07:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-31 07:00, Temp: 99.9°C, Vib: 2.0 mm/s, Press: 7.2 bar",Continua il monitoraggio standard.,True,99.9,2.02,7.22,50.0
+2024-03-01T10:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-01 10:00,94.4,2.1,7.2,109.7,2984.0,399.8,0.9; 2024-03-01 08:00,99.0,1.8,7.1,104.1,2958.0,397.9,0.9",Continua il,True,94.4,2.09,7.24,109.74
+2024-05-13T07:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-13 07:00, Temp: 87.8°C, Vib: 2.3 mm/s, Press: 7.3 bar",Continua il monitoraggio standard.,True,87.8,2.29,7.29,113.04
+2024-03-18T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-18 08:00, Temp: 92.5°C, Vib: 2.2 mm/s; 2024-03-18 11:00, Temp: 100.2°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,92.5,2.22,6.97,122.75
+2024-04-11T05:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-11 05:00, Temp: 79.6°C, Vib: 2.1 mm/s, Press: 6.7 bar",Continuare il monitoraggio standard.,True,79.6,2.08,6.73,82.49
+2024-05-26T23:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-26 23:00, Temp: 71.0°C, Vib: 1.9 mm/s, Press: 6.5 bar",Continua il monitoraggio standard.,True,71.0,1.86,6.54,50.0
+2024-04-15T11:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 99.8 °C, Vibration: 2.0 mm/s, Pressure: 7.0 bar",Continua il monitoraggio standard.,True,99.8,1.96,6.99,107.76
+2024-05-17T23:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-17 23:00, Temp: 94.6°C, Vib: 1.8 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,94.6,1.8,7.14,79.36
+2024-05-09T21:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-09 21:00, Temp: 83.3°C, Vib: 1.6 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,83.3,1.63,7.13,95.55
+2024-04-25T03:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-25 03:00, Temp: 72.5°C, Vib: 1.8 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,72.5,1.81,7.05,80.66
+2024-05-02T05:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-02 05:00, Temp: 87.8°C, Vib: 2.2 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,87.8,2.16,7.06,83.59
+2024-03-21T18:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-21 18:00,73.9,2.0,7.1,89.6,2912.0,404.2,0.9",Continua il monitoraggio standard.,True,73.9,1.97,7.14,89.6
+2024-05-07T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-07 08:00,97.6°C,2.2 mm/s,7.2 bar",Continua il monitoraggio standard.,True,97.6,2.22,7.25,111.2
+2024-04-18T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-18 17:00, Temp: 95.9°C, Vib: 1.7 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,95.9,1.67,6.91,105.87
+2024-03-01T01:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-01 01:00, Temp: 71.8°C, Vib: 1.6 mm/s; 2024-03-01 02:00, Temp: 75.8°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,71.8,1.57,7.04,79.41
+2024-04-09T19:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-09 19:00,85.9,1.6,7.0",Continua il monitoraggio standard.,True,85.9,1.63,7.04,100.73
+2024-03-12T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-12 08:00, Temp: 87.5°C, Vib: 1.6 mm/s; 2024-03-12 14:00, Temp: 84.9°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,87.5,1.65,6.92,119.17
+2024-03-13T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-13 09:00, Temp: 97.6°C, Vib: 1.7 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,97.6,1.68,7.12,114.25
+2024-05-23T18:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-23 18:00,82.9,2.0,7.1,50.0,2873.0,380.0,1.0",Continua il monitoraggio standard.,True,82.9,2.03,7.11,50.0
+2024-05-26T10:00:00,normal,NORMAL VALUE,ANOMALY,guasto cuscinetti,bassa,"2024-05-26 10:00,100.1,2.6,6.8,50.0,2800.0,380.0,1.0; 2024-05-26 14:00,84.6,1.6,6.5,50.0,2800.0,380.0,1.0",Monitor system based on classification.,False,100.1,2.56,6.78,50.0
+2024-03-08T22:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-08 22:00, Temp: 86.4°C, Vib: 1.9 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,86.4,1.88,6.9,81.96
+2024-04-20T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-20 00:00, Temp: 75.4°C, Vib: 1.7 mm/s; 2024-04-20 02:00, Temp: 71.6°C, Vib: 2.0 mm/s",Continua il monitoraggio standard.,True,75.4,1.67,6.58,60.56
+2024-05-12T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-12 17:00, Temp: 83.1°C, Vib: 2.2 mm/s, Press: 6.7 bar",Continua il monitoraggio standard.,True,83.1,2.15,6.68,75.53
+2024-03-02T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-02 09:00, Temp: 82.3°C, Vib: 1.8 mm/s, Press: 6.7 bar",Continua il monitoraggio standard.,True,82.3,1.82,6.71,73.78
+2024-03-07T05:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-07 05:00, Temp: 75.9°C, Vib: 1.5 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,75.9,1.46,7.04,84.38
+2024-05-28T06:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 95.7°C, Vibration: 1.6 mm/s, Pressure: 7.2 bar",Continua il monitoraggio standard.,True,95.7,1.64,7.24,50.0
+2024-04-28T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-28 00:00, Temp: 84.0°C, Vib: 1.6 mm/s; 2024-04-28 02:00, Temp: 64.2°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,84.0,1.57,6.64,72.3
+2024-04-28T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-28 15:00, Temp: 95.0°C, Vib: 1.7 mm/s, Press: 6.5 bar",Continua il monitoraggio standard.,True,95.0,1.66,6.5,90.64
+2024-03-04T15:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-04 15:00, Temp: 105.7°C, Vib: 1.6 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,105.7,1.59,7.04,115.67
+2024-04-04T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 98.8 °C, Vibration: 1.7 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,98.8,1.69,7.54,92.25
+2024-03-04T02:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-04 02:00, Temp: 91.4°C, Vib: 1.8 mm/s, Press: 7.5 bar",Continua il monitoraggio standard.,True,91.4,1.78,7.47,62.89
+2024-03-04T07:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-04 07:00, Temp: 100.8°C, Vib: 2.0 mm/s; 2024-03-04 07:00, Press: 7.6 bar, Speed: 2927.0 RPM",Continua il monitoraggio standard.,True,100.8,2.0,7.58,86.1
+2024-05-04T02:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-04 02:00, Temp: 73.8°C, Vib: 1.7 mm/s, Press: 6.4 bar",Continua il monitoraggio standard.,True,73.8,1.66,6.44,53.62
+2024-05-15T06:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-15 06:00, Temp: 84.9°C, Vib: 2.3 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,84.9,2.34,7.06,94.07
+2024-05-05T23:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-05 23:00, Temp: 72.4°C, Vib: 1.9 mm/s, Press: 6.7 bar",Continua il monitoraggio standard.,True,72.4,1.92,6.68,62.78
+2024-03-04T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-04 00:00, Temp: 83.5°C, Vib: 1.8 mm/s; 2024-03-04 02:00, Temp: 91.4°C, Vib: 1.8 mm/s",Continua il monitoraggio standard.,True,83.5,1.81,7.04,83.64
+2024-05-25T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-25 17:00, Temp: 77.8°C, Vib: 1.8 mm/s, Press: 6.8 bar",Continua il monitoraggio standard.,True,77.8,1.82,6.79,50.0
+2024-05-09T00:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-09 00:00, Temp: 76.6°C, Vib: 2.2 mm/s, Press: 7.0 bar",Continua il monitoraggio standard.,True,76.6,2.24,7.01,83.48
+2024-05-04T07:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-04 07:00, Temp: 80.1°C, Vib: 2.3 mm/s, Press: 6.6 bar",Continua il monitoraggio standard.,True,80.1,2.27,6.61,73.28
+2024-05-24T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 86.5 °C, Vibration: 2.1 mm/s, Pressure: 7.2 bar",Continua il monitoraggio standard.,True,86.5,2.07,7.21,50.0
+2024-05-27T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-27 08:00, Temp: 91.1°C, Vib: 1.9 mm/s; 2024-05-27 11:00, Temp: 100.5°C, Vib: 1.9 mm/s",Continua il monitoraggio standard.,True,91.1,1.88,7.11,50.0
+2024-03-23T14:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-23 14:00,79.6,1.8,6.8",Continua il monitoraggio standard.,True,79.6,1.75,6.82,86.94
+2024-05-31T19:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-31 19:00,89.7°C,1.5 mm/s,7.4 bar",Continua il monitoraggio standard.,True,89.7,1.54,7.37,50.0
+2024-03-29T03:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-29 03:00, Temp: 85.4°C, Vib: 1.5 mm/s, Press: 6.8 bar",Continua il monitoraggio standard.,True,85.4,1.51,6.83,72.33
+2024-05-17T17:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 88.4 °C, Vibration: 1.6 mm/s, Pressure: 7.5 bar",Continua il monitoraggio standard.,True,88.4,1.57,7.48,84.74
+2024-03-01T13:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-01 13:00, Temp: 90.5°C, Vib: 1.8 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,90.5,1.8,6.89,93.21
+2024-04-29T21:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-29 21:00,87.2,1.8,6.9,99.1,2945.0,401.5,0.9; 2024-04-29 23:00,80.4,1.5,7.2,88.5,2972.0,398.8,0.9",Continua il monitoraggio,True,87.2,1.83,6.87,99.06
+2024-03-17T20:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-17 20:00, Temp: 80.8°C, Vib: 1.6 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,80.8,1.55,6.92,64.25
+2024-05-08T19:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-08 19:00,82.0,2.0,7.2,91.8,2950.0,401.8,0.9; 2024-05-08 20:00,82.8,1.9,7.4,87.9,2939.0,401.7,0.9",Continua il monitoraggio,True,82.0,1.96,7.15,91.78
+2024-03-17T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 74.8°C, Vibration: 1.8 mm/s, Pressure: 6.6 bar",Continua il monitoraggio standard.,True,74.8,1.83,6.59,67.03
+2024-04-06T09:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"Temperature: 82.1°C, Vibration: 1.7 mm/s, Pressure: 7.0 bar",Continua il monitoraggio standard.,True,82.1,1.72,6.99,76.03
+2024-05-15T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-15 16:00,94.1,2.1,7.2,84.5,2913.0,398.9,0.9; 2024-05-15 17:00,94.7,2.0,7.3,92.7,2945.0,395.4,0.9",Continua il monitoraggio,True,94.1,2.11,7.23,84.46
+2024-03-07T08:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-03-07 08:00, Temp: 84.0°C, Vib: 1.8 mm/s, Press: 7.1 bar",Continua il monitoraggio standard.,True,84.0,1.76,7.06,102.16
+2024-04-28T12:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-04-28 12:00, Temp: 71.9°C, Vib: 1.7 mm/s, Press: 6.9 bar",Continua il monitoraggio standard.,True,71.9,1.73,6.87,86.42
+2024-05-03T16:00:00,normal,NORMAL VALUE,NORMAL VALUE,,alta,"2024-05-03 16:00,99.0,1.6,7.0",Continua il monitoraggio standard.,True,99.0,1.57,7.03,99.1
